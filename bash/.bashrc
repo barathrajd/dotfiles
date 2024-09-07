@@ -23,3 +23,7 @@ esac
 # pnpm end
 
 PATH=~/.console-ninja/.bin:$PATH
+alias cd="z"
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
