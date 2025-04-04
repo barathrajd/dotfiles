@@ -1,22 +1,12 @@
-import = [
-  "~/.config/alacritty/theme.toml",
-  "~/.config/alacritty/font.toml",
-  "~/.config/alacritty/font-size.toml",
-]
 
 [env]
 TERM = "xterm-256color"
 
-[shell]
-program = "zellij"
 
 [window]
 padding.x = 0
 padding.y = 0
-decorations = "None"
-opacity = 0.98
+decorations = "Full"
 
-[keyboard]
-bindings = [
-{ key = "F11", action = "ToggleFullscreen" }
-]
+[font]
+size = 25
