@@ -1,12 +1,22 @@
-
 [env]
 TERM = "xterm-256color"
 
-
 [window]
-padding.x = 0
-padding.y = 0
-decorations = "Full"
+# padding.x = 10
+# padding.y = 10
+decorations = "ButtonLess"
+opacity= 0.9
+blur = true
 
 [font]
 size = 25
+
+normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
+bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }
+italic = { family = "FiraCode Nerd Font Mono", style = "Italic" }
+
+[general]
+
+import = [
+  "~/.config/alacritty/themes/themes/rose_pine.toml",
+]

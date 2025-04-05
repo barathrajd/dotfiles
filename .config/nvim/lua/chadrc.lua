@@ -4,8 +4,9 @@
 ---@type ChadrcConfig
 local M = {}
 
+
 M.base46 = {
-  theme = "onedark",
+  theme = "rosepine",
 
   -- hl_override = {
   -- 	Comment = { italic = true },
