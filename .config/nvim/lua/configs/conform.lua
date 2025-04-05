@@ -7,8 +7,6 @@ local options = {
     javascriptreact = { "biome" },
     typescript = { "biome" },
     typescriptreact = { "biome" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
   },
 
   format_on_save = {

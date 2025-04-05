@@ -31,8 +31,10 @@ alias vi="nvim"
 # ---- Eza (better ls) -----
 
 alias ls="eza --icons=always"
-
+alias ll="eza -al"
+alias la="eza -a"
 # ---- Zoxide (better cd) ----
+alias cd="z"
 eval "$(zoxide init zsh)"
 
 #source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
