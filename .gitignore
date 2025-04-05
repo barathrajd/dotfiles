@@ -2,3 +2,5 @@
 .DS_Store
 
 .config/alacritty/themes
+
+.config/tmux/plugins
