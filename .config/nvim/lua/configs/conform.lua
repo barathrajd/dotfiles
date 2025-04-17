@@ -8,7 +8,7 @@ local options = {
     typescript = { "biome" },
     typescriptreact = { "biome" },
     json = { "biome" },
-    jsonc = { "biome" }
+    jsonc = { "biome" },
   },
 
   format_on_save = {

@@ -9,14 +9,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 eval "$(starship init zsh)"
 export PATH=$HOME/.local/bin:$PATH
 
-# pnpm
-export PNPM_HOME="/Users/barathrajdevarajan/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 # history setup
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
@@ -39,3 +31,14 @@ eval "$(zoxide init zsh)"
 
 #source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 #source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="/opt/homebrew/opt/node@22/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/node@22/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/node@22/include"
+
+# pnpm
+export PNPM_HOME="/Users/barathrajdevarajan/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
