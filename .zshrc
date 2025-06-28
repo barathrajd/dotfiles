@@ -50,3 +50,6 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/barathrajdevarajan/.codeium/windsurf/bin:$PATH"
